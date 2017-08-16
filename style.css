@@ -44,7 +44,7 @@ h1 {
 .header-text {
 	margin-left: 10px;
 	color: white;
-	font: bold 24px/45px Helvetica, Sans-Serif;
+	font: bold 24px Sans-Serif;
 	background: rgba(123, 207, 249, 0.5);
 	letter-spacing: -1px;
 	padding: 10px;
@@ -59,7 +59,7 @@ h1 {
 .about-header {
 	margin-top: 50px;
 	color: white;
-	font: bold 24px/45px Helvetica, Sans-Serif;
+	font: bold 24px Sans-Serif;
 	letter-spacing: -1px;
 
 }
