@@ -1,25 +1,19 @@
 body {
-	background-image: url(http://i.imgur.com/f1Zxpi1.jpg);
-	background-repeat:no-repeat;
-	background-size: cover;
-	width: auto;
+	background-image: url(vintage-concrete.png);
+	width: 100%;
 	height: auto;
-	margin: 25px auto;
+	margin: auto;
 }
 
 .top-section-parent {
+	height: 500px;
 	width: 100%;
-	margin-bottom: 250px;
+	background-image: url(phillyscape2.jpg);
+	background-size: 100%;
+	border: 3px solid #f4efdd;
+	margin-bottom: 25px;
 }
 
-.header-image {
-	width: 100%;
-	height: 400px;
-	border: 5px solid #FFFFFF;
-	position: relative;
-	top: 0;
-	left: 0;
-}
 .profile-image {
 	width: 200px;
 	height: 200px;
@@ -40,38 +34,38 @@ h1 {
 
 .header-text {
 	margin-left: 10px;
-	color: white;
+	color: black;
 	font: bold 24px Sans-Serif;
-	background: rgba(123, 207, 249, 0.5);
+	background: rgba(192,220,192, 0.5);
 	letter-spacing: -1px;
 	padding: 10px;
 }
 .midsection-parent {
+	height: auto;
 	width: auto;
-	min-width: 100%;
-	display: inline-block;
-	margin-bottom: 100px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
 .about-header {
+	text-align: center;
 	margin-top: 50px;
-	color: white;
+	color: black;
 	font: bold 24px Sans-Serif;
 	letter-spacing: -1px;
 
 }
-.about-format {
-	width: 90%;
-	height: 400px;
-	margin-left: 20px;
-}
+
 .about-text {
+	display: inline-block;
+	width: 50%;
 	color: white;
 	font: 16 Sans-Serif;
 }
 
 .third-section {
-	margin-top: 50px;
+	margin-top: 10px;
 }
 .left-third-section-format {
 	margin-left: 20px;
@@ -85,8 +79,8 @@ h1 {
 }
 
 .iframe-format{
-	height: 500px;
-	width: 500px;
+	height: 600px;
+	width: 600px;
 	border: 2px solid #000000;
 }
 .right-third-section-format {
