@@ -74,56 +74,21 @@ h1 {
 }
 
 .third-section {
+	width: 600px;
+	height: auto;
 	margin-top: 10px;
-}
-.left-third-section-format {
-	margin-left: 20px;
-	float: left;
+	margin: 0 auto;
 }
 
 .resume-header {
 	font: bold 24px Sans-Serif;
 	color: black;
 	letter-spacing: -1px;
+	text-align: center;
 }
 
 .iframe-format{
 	height: 600px;
 	width: 600px;
 	border: 2px solid #000000;
-}
-.right-third-section-format {
-	height: 615px;
-	float: right;
-	padding-right: 50px;
-}
-
-.linklist-format {
-	width: 200px;
-	height: 300px;
-	padding-right: 10px;
-}
-.list-header {
-	padding-top: 20px;
-	font: bold 24px Sans-Serif;
-	color: black;
-	letter-spacing: -1px;
-}
-.linklist-element {
-	font: 20px Sans-Serif;
-	color: black;
-	letter-spacing: -1px;
-	padding-top: 10px;
-}
-
-.contact-format {
-	width: 200px;
-	height: 300px;
-}
-
-.contact-element {
-	font: 16px Sans-Serif;
-	color: black;
-	letter-spacing: -1px;
-	padding-top: 10px;
 }
