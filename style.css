@@ -83,7 +83,7 @@ h1 {
 
 .resume-header {
 	font: bold 24px Sans-Serif;
-	color: white;
+	color: black;
 	letter-spacing: -1px;
 }
 
@@ -106,12 +106,12 @@ h1 {
 .list-header {
 	padding-top: 20px;
 	font: bold 24px Sans-Serif;
-	color: white;
+	color: black;
 	letter-spacing: -1px;
 }
 .linklist-element {
 	font: 20px Sans-Serif;
-	color: white;
+	color: black;
 	letter-spacing: -1px;
 	padding-top: 10px;
 }
@@ -123,7 +123,7 @@ h1 {
 
 .contact-element {
 	font: 16px Sans-Serif;
-	color: white;
+	color: black;
 	letter-spacing: -1px;
 	padding-top: 10px;
 }
