@@ -6,9 +6,9 @@ body {
 }
 
 .top-section-parent {
-	height: 500px;
+	height: 700px;
 	width: 100%;
-	background-image: url(phillyscape2.jpg);
+	background-image: url(grafiti_pier.jpg);
 	background-size: 100%;
 	border: 3px solid #f4efdd;
 	margin-bottom: 25px;
@@ -57,10 +57,19 @@ h1 {
 
 }
 
+.about-line {
+	width: 30%;
+	size: 6px;
+	align: center;
+	color: black;
+
+}
+
 .about-text {
+
 	display: inline-block;
 	width: 50%;
-	color: white;
+	color: black;
 	font: 16 Sans-Serif;
 }
 
