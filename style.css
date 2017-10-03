@@ -78,6 +78,7 @@ h1 {
 	height: auto;
 	margin-top: 10px;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 .resume-header {
@@ -91,4 +92,27 @@ h1 {
 	height: 825px;
 	width: 600px;
 	border: 2px solid #000000;
+}
+
+.projects {
+	margin: 0 auto;
+	height: 600px;
+	width: auto;
+}
+
+.projects-header {
+	padding-top: 100px;
+	width: auto;
+	height: auto;
+	font: bold 24px Sans-Serif;
+	letter-spacing: -1px;
+}
+
+.dailypoemproject-header {
+	font: 20px Sans-Serif black;
+}
+
+.dailypoemproject-about {
+	font: 16px Sans-Serif black;
+
 }
