@@ -1,5 +1,5 @@
 body {
-	background-image: url(vintage-concrete.png);
+	background-image: url(vintage-concrete.jpg);
 	width: 100%;
 	height: auto;
 	margin: auto;
@@ -18,7 +18,7 @@ body {
 
 #toolbar {
   position: fixed;
-	background-image: url(vintage-concrete.png);
+	background-image: url(vintage-concrete.jpg);
   overflow: hidden;
   left: 0;
   right: 0;
@@ -73,7 +73,7 @@ body {
 #top-section-parent {
 	height: 750px;
 	width: 100%;
-	background-image: url(grafiti_pier.png);
+	background-image: url(grafiti_pier.jpg);
 	background-size: 100%;
 	border: 3px solid #f4efdd;
 	margin-bottom: 25px;
@@ -142,7 +142,7 @@ body {
 #second-image {
 	height: 750px;
 	width: 100%;
-	background-image: url(love.png);
+	background-image: url(love.jpg);
 	background-size: 100%;
 	border: 3px solid #f4efdd;
 	margin-bottom: 25px;
@@ -154,7 +154,7 @@ body {
 #third-image {
 	height: 750px;
 	width: 100%;
-	background-image: url(philly_pier.png);
+	background-image: url(philly_pier.jpg);
 	background-size: 100%;
 	border: 3px solid #f4efdd;
 	margin-bottom: 25px;
