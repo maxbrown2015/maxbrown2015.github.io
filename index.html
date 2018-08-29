@@ -12,11 +12,20 @@
 <link href="style.css" type="text/css" rel="stylesheet"></link>
 <link rel="stylesheet" href="/Library/Fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<!-- Bootstrap and jquery -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/js/bootstrap-tour.min.js"></script>
+
 <script src="script.js"></script>
 </head>
 <body>
-
+<div class="background-img">
+	<div id="parent-container" class="container">
+	
 	<div id="toolbar">
 		<h1 id="name">Maxwell Brown</h1>
 		<ul>
@@ -29,104 +38,34 @@
 			<nav>
 		</ul>
 	</div>
-
-	<div id="top-section-parent">
-			<img src="http://i.imgur.com/iJVH0gA.jpg"  alt = "self portrait">
+	<div id="first-image" class="container-fluid parallax">
+		<div id="self-portrait-wrapper">
+			<img id="self-portrait" src="http://i.imgur.com/iJVH0gA.jpg"  alt = "self portrait">
+		</div>
 	</div>
-	<div id="about-section">
-			<h2>About</h2>
-			<hr>
-			<div>
-			Hello!
-			My name is Max and I’m a Junior at the University of Pennsylvania.
-			Currently, I am pursuing a double major in Computer Science and History
-			in the College of Arts and Sciences. I'm a Web Developer for the Penn
-			History Department, a TA for Intro to Computer Science, and a history
-			buff.
-			<br><br>
-			I'm interested in pushing the frontiers of tech. Blockchain, ML, and
-			social media are just the tip of the iceberg; there is still so much to explore
-			and develop. While at school, I'm looking to gain experience working on novel projects outside of the classroom
-			while soldifiying the fundamental skills a Software Developer needs. In my
-			free time, I like to explore my adopted home of Philadelphia, read historical
-			fiction, and stay current on the news.
-			<br><br>
-	</div>
-	<hr>
-	</div>
-
-	<div id="second-image" class="parallax">
-	</div>
-
-	<div id="experience-section">
-		<h2>Work Experience</h2>
-		<hr>
-		<ul id="experience">
-			<li id="hist-web-dev"><h4>Web Developer<br>Penn History Department -> Sept. 2017 - Current</h4></li>
-				<ul>
-					<li>Work on projects for the History Department’s website, including a new page and an interactive graph-based guide to course offerings </li>
-					<li>Plan with Department heads for history.upenn’s upcoming re-design, offering input on modern design trends and a student’s perspective</li>
-					<li>Act as a liaison between the Department and Penn Computing</li>
-				</ul>
-			<li id="110-ta"><h4>CIS110 TA<br>University of Pennsylvania -> Dec. 2017 - Current<h4></li>
-				<ul>
-					<li>I was selected to be an TA after being recommended by my TA and passing a technical interview screening</li>
-					<li>My responsibilities include grading assignments, designing class work, and holding personalized office hours to help struggling students.</li>
-				</ul>
-			<li id="Franklin-lib"><h4>Library Assistant<br>University of Pennsylvania -> Sept. 2016 - Current</h4></li>
-				<ul>
-					<li>I work approximately ten hours a week as a library assistant for work-study</li>
-					<li>My responsibilites include processing books, updating library software, and helping patrons with local IT support,</li>
-				</ul>
-		</ul>
-
-	</div>
-
-
-
-	<div id="third-image" class="parallax">
-	</div>
-	<div id="projects-section">
-		<h2>Projects</h2>
-		<hr>
-		<div id="sub-projects">
-		<ul id="projects">
-			<li id="daily-poem"><h4>dailypoemproject.com</h4></li>
-				<ul>
-					<li>A simple <a href="https://github.com/maxbrown2015/poetryproject.github.io">web app</a> which emails subscribers a poem every morning</li>
-					<li>I reached out to my Facebook network and Penn's Kelly Writer's House for subscribers and for content-providers</li>
-					<li>Created for PennApps, the project ran from October to December</li>
-				</ul>
-			<li id="J-Compiler"><h4>J-Compiler</h4></li>
-				<ul>
-					<li>CIS240 Project for Fall 2017 </li>
-					<li>A <a href="https://github.com/maxbrown2015/J-Compiler">program</a> written in C that compiles a low-level language (J) into assembly code that is run on the PennSim LC4 machine</li>
-				</ul>
-			<li id="featured-undergrad"><h4>Featured Undergraduates</h4></li>
-				<ul>
-					<li>In Fall 2017, I independently designed a <a href="http://www.history.upenn.edu/undergraduate/featured-undergraduates">web page</a>
-		 in Drupal displaying undergraduate achievements for the Penn History Department </li>
-					<li>Part of a greater goal to re-design the history website to fit modern design trends</li>
-				</ul>
-		</ul>
-	</div>
-	</div>
-<div id="contact-section">
-			<h2>Contact</h2>
-			<hr>
-			<div>
-	  				<a href="mailto:maxbrown@sas.upenn.edu"style="font: 15px Sans-Serif">maxbrown@sas.upenn.edu</a>
-	  				<br>
-	          <a href="https://www.linkedin.com/in/maxwell-brown-2371a7102/" style="padding-left:0px;"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-	  				<a href="https://github.com/maxbrown2015" style="padding-left: 5px;"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-	  				<a href="https://upenn.joinhandshake.com/users/4650607" style="padding-left: 5px;"><i class="fa fa-handshake-o" aria-hidden="true"></i></a>
+	<div id ="about-area" class="container-fluid">
+		<div id="about-row" class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8" id="about-content">
+				
 			</div>
-</div>
-</body>
-<!--
-<div class="third-section">
-		<h2 class="resume-header">Resume</h2>
-		<iframe class="iframe-format" src="maxwellbrown_resume_10.12.17.pdf" name="resume" alt="Your browser does not support Iframe."> </iframe>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<!--
+	<div id="contact-section">
+				<h2>Contact</h2>
+				<hr>
+				<div>
+						<a href="mailto:maxbrown@sas.upenn.edu"style="font: 15px Sans-Serif">maxbrown@sas.upenn.edu</a>
+						<br>
+				<a href="https://www.linkedin.com/in/maxwell-brown-2371a7102/" style="padding-left:0px;"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+						<a href="https://github.com/maxbrown2015" style="padding-left: 5px;"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+						<a href="https://upenn.joinhandshake.com/users/4650607" style="padding-left: 5px;"><i class="fa fa-handshake-o" aria-hidden="true"></i></a>
+				</div>
 	</div>
 -->
+</div>
+</div>
+</body>
 </html>
