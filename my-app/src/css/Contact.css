@@ -1,0 +1,29 @@
+.Contact {
+  height: 10vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.Contact-header {
+  text-align: center;
+}
+
+.H-line {
+  width: 75%;
+}
+
+.Email-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Icon-item {
+  margin: .5em; 
+}
