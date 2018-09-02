@@ -7,9 +7,10 @@ class Contact extends React.Component {
   }
 
   render() {
+    const header = this.props.header ? <h2 className="Contact-header">Contact</h2> : <div></div>
     return (
       <div className="Contact">
-        <h2 className="Contact-header">Contact</h2>
+        {header}
         <hr className="H-line"></hr>
         <div className="Email-container">
           <a href="mailto:maxbrown@sas.upenn.edu">maxbrown@sas.upenn.edu</a>
