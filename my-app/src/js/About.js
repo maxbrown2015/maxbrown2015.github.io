@@ -4,9 +4,9 @@ import '../css/About.css'
 
 
 const aboutMe = "Hello, I'm a senior at the University of Pennsylvania" +
-" studying History and Computer Science. Currently, I am Web Developer for the Penn History Department and a TA for CIS110 (Intro to Computer Science). This year, I am actively looking for full-time employment at a tech firm, big or small.";
+" studying History and Computer Science. Currently, I am Web Developer for the Penn History Department and a TA for CIS110 (Intro to Computer Science). This year, I am actively looking for full-time employment.";
 
-const statement = "Learning is my passion. I've been reading since I was four and have not slowed down since. I actively learn outside of the classroom, teaching myself ReactJS, Smart Contract (Blockchain) development, and the more complex aspects of Android. I'm an explorer at heart, and I love to try new things and meet new people. In my free time, I enjoy biking the city of Philadelphia and updating my written journal."
+const statement = "I'm a jack of all trades. I have technical expertise, excellent writing skills, and a knack for getting along with everyone. I've worked in teams my entire life, but I'm not afraid to take on solo projects. In addition, I'm a history buff and public policy wonk. In my free time, I enjoy biking the city of Philadelphia and updating my written journal with my explorations."
 class About extends React.Component {
   constructor(props) {
     super(props);
@@ -22,7 +22,6 @@ class About extends React.Component {
       <hr className="About-line"></hr>
       <div className="About-content">
       {aboutMe}
-      <br></br>
       <br></br>
       <br></br>
       {statement}

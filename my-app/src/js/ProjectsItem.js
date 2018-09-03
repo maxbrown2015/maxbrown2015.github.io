@@ -41,7 +41,7 @@ class ProjectsItem extends React.Component {
     <a href="https://github.com/maxbrown2015"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
     </div>);
 
-    return (this.props.data.link === '' ? withLink : withLink)
+    return (this.props.data.link === '' ? withoutLink : withLink)
   }
 
 

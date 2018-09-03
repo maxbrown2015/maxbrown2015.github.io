@@ -1,10 +1,15 @@
+ul li {
+  margin: .25em;
+}
+
 .ProjectsItem {
-  width: 25vw;
-  height: 45vh;
+  width: 30vw;
+  height: 50vh;
   border: 1px solid #40E0D0;
   background: #f2eded;
   margin: 5em;
   overflow: hidden;
+  font-size: 1em;
 }
 
 .ProjectsItem-header {  
