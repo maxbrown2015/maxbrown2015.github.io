@@ -24,9 +24,8 @@ class NavbarHeader extends React.Component {
           <NavItem eventKey={1} href="#About" onSelect={this.scrollToLocation}>About</NavItem>
           <NavItem eventKey={2} href="#Work" onSelect={this.scrollToLocation}>Work</NavItem>
           <NavItem eventKey={3} href="#Projects" onSelect={this.scrollToLocation}>Projects</NavItem>
-          <NavItem eventKey={4} href="#Extra" onSelect={this.scrollToLocation}>Extra</NavItem>
-          <NavItem eventKey={5} href="#Contact" onSelect={this.scrollToLocation}>Contact</NavItem>
-          <NavItem eventKey={6} href="" onSelect={this.scrollToLocation}>Resume</NavItem>
+          <NavItem eventKey={4} href="#Contact" onSelect={this.scrollToLocation}>Contact</NavItem>
+          <NavItem eventKey={5} href="" onSelect={this.scrollToLocation}>Resume</NavItem>
         </Nav>
       </Navbar>
     )

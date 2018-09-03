@@ -11,17 +11,22 @@ class Projects extends React.Component {
 
   renderProjectItems() {
     return (
-      <div Projects-container>
+      <div className="Projects-container">
         <div className="Projects-row">
           <ProjectsItem data={pathwaysInformation}/>
           <ProjectsItem data={casinoInformation}/>
-          <ProjectsItem data={whenToDanceInformation}/>
         </div>
         <div className="Projects-row">
           <ProjectsItem data={dailyPoemInformation}/>
+          <ProjectsItem data={whenToDanceInformation}/>
+        </div>
+        <div className="Projects-row">
           <ProjectsItem data={featuredUndergradInformation}/>
           <ProjectsItem data={personalWebsiteInformation}/>
         </div>
+        <div className="Projects-row">
+          <ProjectsItem data={zionInformation}/>
+        </div> 
       </div>
     )
   }
@@ -31,33 +36,46 @@ class Projects extends React.Component {
       <div className="Projects-header"><h2>Projects</h2></div>
       <hr className="Projects-line"></hr>
       {this.renderProjectItems()}
+
     </div>)
   }
 }
 
 const pathwaysInformation = {
   title: "Pathways",
-  points: []
+  points: [],
+  link: '',
 };
 const casinoInformation = {
   title: "Casino",
-  points: []
+  points: [],
+  link: '',
 };
 const dailyPoemInformation = {
   title: "DailyPoemProject",
-  points: []
+  points: ['Web page that allows users to sign up to receive a poem every morning.'],
+  link: '',
 };
 const featuredUndergradInformation = {
   title: "Featured Undergraduates",
-  points: []
+  points: [],
+  link: '',
 };
 const whenToDanceInformation = {
   title: "WhenToDance",
-  points: []
+  points: [],
+  link: '',
 };
 const personalWebsiteInformation = {
   title: "Personal Website",
-  points: []
+  points: [],
+  link: '',
+};
+
+const zionInformation = {
+  title: "Zion Video",
+  points: [],
+  link: 'https://vimeo.com/268284537',
 };
 
 export default Projects;
