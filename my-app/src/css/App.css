@@ -15,7 +15,7 @@
 .First-image {
   width: 100vw;
   height: 100vh;
-  background-image: url(img/grafiti_pier.png);
+  background-image: url(../img/grafiti_pier.png);
   background-size: 100%;
   margin: 0 auto;
   position: relative;
@@ -32,7 +32,7 @@
   background-repeat: no-repeat;
   background-size: cover;  
   
-  background-image: url(img/self-portrait.jpg);
+  background-image: url(../img/self-portrait.jpg);
   overflow: hidden;
 }
 
@@ -51,7 +51,7 @@
 .Second-image {
   width: 100vw;
   height: 100vh;
-  background-image: url(img/zion-landscape.jpg);
+  background-image: url(../img/zion-landscape.jpg);
   background-size: 100%;
   margin: 0 auto;
 }
@@ -65,7 +65,7 @@
 .Third-image {
   width: 100vw;
   height: 100vh;
-  background-image: url(img/zion-max.JPG);
+  background-image: url(../img/zion-max.JPG);
   background-size: 100% 100%;
 }
 
@@ -77,7 +77,7 @@
 .Fourth-image {
   width: 100vw;
   height: 100vh;
-  background-image: url(img/love.png);
+  background-image: url(../img/love.png);
   background-size: 100%;
 }
 

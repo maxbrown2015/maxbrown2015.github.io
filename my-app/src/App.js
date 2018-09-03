@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
+import './css/App.css';
 import Headroom from 'react-headroom'
 import NavbarHeader from './js/NavbarHeader'
 import Contact from './js/Contact'
 import About from './js/About'
 import Work from './js/Work'
 import Projects from './js/Projects'
-
-
+  
 class App extends Component {
   constructor(props) {
     super(props);
