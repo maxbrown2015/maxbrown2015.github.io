@@ -1,0 +1,22 @@
+.Extras  {
+  min-width: 100vw;
+  min-height: 60vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Extras-header {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.Extras-line {
+  width: 75%;
+}
+
+.Extras-content {
+  display: flex;
+}

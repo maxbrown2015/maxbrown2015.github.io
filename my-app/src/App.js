@@ -1,29 +1,76 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavbarHeader from './js/NavbarHeader'
 import Headroom from 'react-headroom'
+import NavbarHeader from './js/NavbarHeader'
+import Contact from './js/Contact'
+import About from './js/About'
+import Work from './js/Work'
+import Projects from './js/Projects'
+import Extras from './js/Extras'
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.selectScroll = this.selectScroll.bind(this);
+    this.navigateToSection = this.navigateToSection.bind(this);
+    
+    // add refs for navigation 
+    this.aboutRef = React.createRef();
+    this.workRef = React.createRef();
+    this.projectsRef = React.createRef();
+    this.extrasRef = React.createRef();
+    this.contactRef = React.createRef();
+  }
+
+  selectScroll(eventKey) {
+    console.log(eventKey)
+    switch(eventKey) {
+      case 1: {
+        this.navigateToSection(this.aboutRef);
+        break;
+      }
+      case 2: {
+        this.navigateToSection(this.workRef);
+        break;
+      }
+      case 3: {
+        this.navigateToSection(this.projectsRef);
+        break;
+      }
+      case 4: {
+        this.navigateToSection(this.contactRef);
+        break;
+      }
+      default: {
+        break;
+      }
+    }
+  }
+
+  navigateToSection(theRef) {
+    window.scrollTo({top: theRef.current.offsetTop, behavior: 'smooth'});
+  }
+
   render() {
     return (
       <div className="App">
-        <Headroom> <NavbarHeader /> </Headroom>
+        <Headroom> <NavbarHeader tellParentToScroll={this.selectScroll}/> </Headroom>
         <div className="First-image Parallax">
         </div>
-        <div className="About">
-
+        <div ref={this.aboutRef}>
+          <About />
         </div>
         <div className="Second-image Parallax"></div>
-        <div className="Experience"></div>
-        <div className="Third-image Parallax">
+        <div className="Work" ref={this.workRef}>
+          <Work />
         </div>
-        <div className="Projects">
-        </div>
+
         <div className="Fourth-image Parallax">
         </div>
-        <div className="Extras">
+        <div className="Projects" ref={this.projectsRef}>
+          <Projects />
         </div>
-        <div className="Contact"></div>
+        <div ref={this.contactRef}><Contact header={true}/></div>
       </div>
     );
   }

@@ -2,23 +2,40 @@ import React, { Component } from 'react';
 import '../css/Work.css'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import '../css/Fade.css'
+import ScrollReveal from 'scrollreveal'
+import Fade from '@material-ui/core/Fade'
+import AnimateHeight from 'react-animate-height'
 
 class Work extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      displayFullWork: false
+      displayFullWork: false,
+      totalHeight: '100%',
     }
     this.renderFullWork = this.renderFullWork.bind(this);
     this.renderToggleWorkButton = this.renderToggleWorkButton.bind(this);
     this.toggleFullWork = this.toggleFullWork.bind(this);
   }
 
+  componentDidMount() {
+    const config = {
+      origin: 'right',
+      reset: false,
+      delay: 300,
+      duration: 1000
+    }
+
+    ScrollReveal().reveal(this.refs.item1, config);
+    ScrollReveal().reveal(this.refs.item2, config);
+    ScrollReveal().reveal(this.refs.item3, config);
+  }
+
   renderFullWork() {
 
     const fullWork = (<div>
       <div className="Work-item">
-      <div className="Work-item-header">Event Official</div>
+      <div className="Work-item-header" >Event Official</div>
             <div className="Work-item-details">Penn Recreation, March 2016 - June 2016</div>
             <ul className="Work-item-list">
               <li>Point 1</li>
@@ -42,32 +59,31 @@ class Work extends React.Component {
             </ul>          
       </div>
     </div>);
-
-    return (<ReactCSSTransitionGroup
-      transitionName="fade"
-      transitionEnterTimeout={1000}
-      transitionLeaveTimeout={300}>
-      {fullWork}
-    </ReactCSSTransitionGroup>)
+    
+    return (<Fade in={this.state.displayFullWork} timeout={2000}>
+    {fullWork}
+      </Fade>)
+    
   }
 
   toggleFullWork() {
     this.setState((prevState) => {
-      return {displayFullWork: !prevState.displayFullWork}
+      const newHeight = !prevState.displayFullWork ? '500' : '250'
+      return {displayFullWork: !prevState.displayFullWork, totalHeight: newHeight}
     })
   }
 
   renderToggleWorkButton() {
     if (this.state.displayFullWork) {
       return (
-        <div className="" onClick={this.toggleFullWork}>
-        Collapse
+        <div className="toggleFullWorkButton" onClick={this.toggleFullWork}>
+        Hide 
         </div>
       )
     } else {
       return (
-        <div className="" onClick={this.toggleFullWork}>
-        Show Full Work Experience
+        <div className="toggleFullWorkButton" onClick={this.toggleFullWork}>
+        See Full Experience
         </div>
       )
     }
@@ -75,14 +91,14 @@ class Work extends React.Component {
 
 
   render() {
-    const fullWork = this.state.displayFullWork ? this.renderFullWork() : <div></div>    
-
+    const fullWork =  this.state.displayFullWork ? this.renderFullWork() : <div></div>;
     return (
+      <AnimateHeight height={this.state.totalHeight} duration={1000} >
       <div className="Work">
         <div className="Work-header"><h2>Work Experience</h2></div>
         <hr className="Work-line"></hr>
         <div className="Work-content">
-          <div className="Work-item">
+          <div className="Work-item" ref={'item1'}>
             <div className="Work-item-header">Web Developer</div>
             <div className="Work-item-details">Penn History Department, Fall 2017 - Present</div>
             <ul className="Work-item-list">
@@ -91,7 +107,7 @@ class Work extends React.Component {
               <li>Point 3</li>
             </ul>
           </div>
-          <div className="Work-item">
+          <div className="Work-item" ref={'item2'}>
           <div className="Work-item-header">CIS 110 Teaching Assistant</div>
             <div className="Work-item-details">University of Pennsylvania, December 2017 - Present</div>
             <ul className="Work-item-list">
@@ -100,7 +116,7 @@ class Work extends React.Component {
               <li>Point 3</li>
             </ul>          
           </div>
-          <div className="Work-item">
+          <div className="Work-item" ref={'item3'}>
           <div className="Work-item-header">Library Assistant</div>
             <div className="Work-item-details">University of Pennsylvania, September 2016 - Present</div>
             <ul className="Work-item-list">
@@ -112,6 +128,7 @@ class Work extends React.Component {
         </div>
         <div>{this.renderToggleWorkButton()}</div>
       </div>
+      </AnimateHeight>
     )
   }
 }

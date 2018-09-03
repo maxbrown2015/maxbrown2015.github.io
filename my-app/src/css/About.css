@@ -1,6 +1,33 @@
 .About {
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 80vh;
   background: rgba(199,235,240, .5);
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid white;
+}
+
+.About-line {
+  width: 66%;
+}
+
+.About-header {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+
+.About-content {
+  font-size: 1.3em;
+  font-family: 'Open Sans';
+  color: #4d4949;
+  width: 50%;
+  text-align: justify;
+  letter-spacing: .001em;
+}
+
+.About-contact {
+  margin-top: 10vh;
 }

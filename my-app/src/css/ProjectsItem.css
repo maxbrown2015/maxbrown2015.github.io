@@ -1,0 +1,44 @@
+.ProjectsItem {
+  width: 25vw;
+  height: 45vh;
+  border: 1px solid #40E0D0;
+  background: #f2eded;
+  margin: 5em;
+  overflow: hidden;
+}
+
+.ProjectsItem-header {  
+  text-align: center;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #3baaee;
+  text-overflow: ellipsis;
+}
+
+.ProjectsItem-line {
+  width: 75%;
+  border-color: #40E0D0
+}
+
+.ProjectsItem-list-container {
+  min-height: 60%;
+}
+
+.ProjectsItem-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.ProjectsItem-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:5%;
+}
+
+.ProjectsItem-icon {
+  margin: 0 5% 0 5%
+}

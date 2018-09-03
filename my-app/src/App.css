@@ -2,6 +2,7 @@
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  font-size: 1em;
 }
 
 .Parallax {
@@ -16,23 +17,22 @@
   height: 100vh;
   background-image: url(img/grafiti_pier.png);
   background-size: 100%;
+  margin: 0 auto;
 }
 
-.About {
-  min-width: 100vw;
-  min-height: 100vh;
-}
 
 .Second-image {
   width: 100vw;
   height: 100vh;
   background-image: url(img/zion-landscape.jpg);
   background-size: 100%;
+  margin: 0 auto;
 }
 
-.Experience {
+.Work {
   min-width: 100vw;
   min-height: 100vh;
+  background: rgba(255,209,209, .8)
 }
 
 .Third-image {
@@ -58,3 +58,4 @@
   min-width: 100vw;
   min-height: 100vh;
 }
+
