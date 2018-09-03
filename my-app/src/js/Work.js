@@ -103,9 +103,9 @@ class Work extends React.Component {
             <div className="Work-item-header">Web Developer</div>
             <div className="Work-item-details">Penn History Department, Fall 2017 - Present</div>
             <ul className="Work-item-list">
-              <li>Primary position is developing maintainable and interactive web projects for the Department</li>
+              <li>Primary responsibility is developing maintainable and interactive web projects for the Department</li>
               <li>Other roles include acting as a liason to Penn Computing, being a student consultant during the Department's re-design process, and finding content for the website</li>
-              <li>Worked over the summer on Pathways, a full-stack JS course visualization tool</li>
+              <li>Worked over the summer on Pathways, a full-stack JS course visualization web app</li>
             </ul>
           </div>
           <div className="Work-item" ref={'item2'}>
