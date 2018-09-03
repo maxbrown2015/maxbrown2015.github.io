@@ -62,7 +62,7 @@ const featuredUndergradInformation = {
   title: "Featured Undergraduates",
   points: ['Fall 2017', 'Commissioned by the Penn History Department to create a web page featuring undergradute achievements', 'Developed using the Drupal 6 CMS', 'Discovered the limitations of non-developer access, which had prevented the Department from styling their page', 'Technologies used: Drupal 6, HTML, CSS'],
   link: 'https://www.history.upenn.edu/undergraduate/featured-undergraduates',
-  git: 'https://github.com/maxbrown2015'
+  git: 'https://github.com/maxbrown2015?tab=repositories'
 };
 const whenToDanceInformation = {
   title: "WhenToDance",
