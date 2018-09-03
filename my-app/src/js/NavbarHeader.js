@@ -14,20 +14,22 @@ class NavbarHeader extends React.Component {
 
   render() {
     return (
-      <Navbar className="MyNavbar">
-        <Navbar.Header className="MyName">
+      <Navbar className="MyNavbar" style={{color: 'white', margin: 0}}>
+        <Navbar.Header >
           <Navbar.Brand>
-            <a className="MyName">Maxwell Brown</a>
+            <a >Maxwell Brown</a>
           </Navbar.Brand>
         </Navbar.Header>
-        <Nav pullRight className="Links">
+        <Nav pullRight >
           <NavItem eventKey={1} href="#About" onSelect={this.scrollToLocation}>About</NavItem>
           <NavItem eventKey={2} href="#Work" onSelect={this.scrollToLocation}>Work</NavItem>
           <NavItem eventKey={3} href="#Projects" onSelect={this.scrollToLocation}>Projects</NavItem>
           <NavItem eventKey={4} href="#Contact" onSelect={this.scrollToLocation}>Contact</NavItem>
           <NavItem eventKey={5} href="" onSelect={this.scrollToLocation}>Resume</NavItem>
         </Nav>
+   
       </Navbar>
+
     )
   }
 }

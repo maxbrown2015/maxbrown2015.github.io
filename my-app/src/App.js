@@ -6,7 +6,7 @@ import Contact from './js/Contact'
 import About from './js/About'
 import Work from './js/Work'
 import Projects from './js/Projects'
-import Extras from './js/Extras'
+
 
 class App extends Component {
   constructor(props) {
@@ -56,8 +56,10 @@ class App extends Component {
       <div className="App">
         <Headroom> <NavbarHeader tellParentToScroll={this.selectScroll}/> </Headroom>
         <div className="First-image Parallax">
+        <div className="Profile-image"></div>
         </div>
-        <div ref={this.aboutRef}>
+
+        <div className="About" ref={this.aboutRef}>
           <About />
         </div>
         <div className="Second-image Parallax"></div>

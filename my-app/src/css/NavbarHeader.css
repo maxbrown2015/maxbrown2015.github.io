@@ -7,9 +7,31 @@
   border: none;
   display: flex;
   align-items: center;
-  color: white;
+  font-size: 1em;
 }
 
 Item {
   color: white;
 }
+
+
+.navbar-header {
+  font-size: 1.5em;
+  color: white;
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar-default .navbar-brand{
+  font-size: 1.5em;
+  margin-left: 5%;
+}
+
+.navbar-default .nav {
+  color: white;
+}
+

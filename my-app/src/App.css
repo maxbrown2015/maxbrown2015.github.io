@@ -18,6 +18,33 @@
   background-image: url(img/grafiti_pier.png);
   background-size: 100%;
   margin: 0 auto;
+  position: relative;
+}
+
+.Profile-image {
+  position: absolute;
+  top: 5%;
+  left: 2.5%;
+  width: 17.5%;
+  height: 35%;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  
+  background-image: url(img/self-portrait.jpg);
+  overflow: hidden;
+}
+
+.About {
+  min-width: 100vw;
+  min-height: 80vh;
+  background: rgba(199,235,240, .5);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid white;
 }
 
 
