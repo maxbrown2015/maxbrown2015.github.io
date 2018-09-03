@@ -1,1 +1,1 @@
-Personal Webiste Boostrapped using Create-React-App
+Personal Website Boostrapped using Create-React-App
