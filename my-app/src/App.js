@@ -65,14 +65,14 @@ class App extends Component {
         </div>
         </div>
         
-        <div className="row">
+        <div className="row img-container">
         <div className="Second-image Parallax"></div>
         <div className="Work" ref={this.workRef}>
           <Work />
         </div>
         </div>
 
-        <div className="row">
+        <div className="row img-container">
         <div className="Fourth-image Parallax">
         </div>
         </div>
