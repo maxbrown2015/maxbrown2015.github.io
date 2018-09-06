@@ -16,7 +16,8 @@ class ProjectsItem extends React.Component {
   componentDidMount() {
     const config = {
       reset: true,
-      duration: 1000,
+      duration: 500,
+      delay: 500,
     }
     console.log(this.itemRef)
     ScrollReveal().reveal(this.refs.itemRef, config);
@@ -47,7 +48,7 @@ class ProjectsItem extends React.Component {
 
   render() {
     return (
-    <div className="ProjectsItem" ref={'itemRef'}>
+    <div className="ProjectsItem col-md-12" ref={'itemRef'}>
       <div className="ProjectsItem-header">{this.props.data.title}</div>
       {this.renderBulletPoints()}
       <hr className="ProjectsItem-line"></hr>

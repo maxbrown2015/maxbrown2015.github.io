@@ -52,24 +52,34 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App container-fluid">
         <Headroom> <NavbarHeader tellParentToScroll={this.selectScroll}/> </Headroom>
-        <div className="First-image Parallax">
-        <div className="Profile-image"></div>
+        <div className="row">
+          <div className="First-image Parallax">
+          <div className="Profile-image"></div>
+          </div>
         </div>
-
+        <div className="row">
         <div className="About" ref={this.aboutRef}>
           <About />
         </div>
+        </div>
+        
+        <div className="row">
         <div className="Second-image Parallax"></div>
         <div className="Work" ref={this.workRef}>
           <Work />
         </div>
+        </div>
 
+        <div className="row">
         <div className="Fourth-image Parallax">
         </div>
+        </div>
+        <div className="row">
         <div className="Projects" ref={this.projectsRef}>
           <Projects />
+        </div>
         </div>
         <div ref={this.contactRef}><Contact header={true}/></div>
       </div>

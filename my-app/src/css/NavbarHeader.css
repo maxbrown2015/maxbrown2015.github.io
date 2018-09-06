@@ -1,13 +1,13 @@
  .MyNavbar {
   width: 100%;
   height: 8%;
+  max-height: 50px;
   margin: 0 auto;
   padding: 0 auto;
   background: rgba(212,170,212);
   border: none;
-  display: flex;
-  align-items: center;
   font-size: 1em;
+  overflow: hidden;
 }
 
 Item {
@@ -23,11 +23,16 @@ nav {
   color: white;
 }
 
-.container {
+nav .container {
   margin: 0;
   width: 100%;
   overflow: hidden;
-  color: white;
+}
+
+@media (max-width: 576px) {
+	nav .container {
+	    width: 80%;
+	}
 }
 
 .navbar-default .navbar-brand{

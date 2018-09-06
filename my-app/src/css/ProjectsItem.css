@@ -2,23 +2,39 @@ ul li {
   margin: .25em;
 }
 
-.ProjectsItem {
+.ProjectsItem  {  
   width: 30vw;
-  height: 50vh;
+  height: 60vh;
   border: 1px solid #40E0D0;
   background: #f2eded;
   margin: 5em;
-  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: scroll;
   font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
+
+@media (max-width: 576px) {
+  .ProjectsItem {
+     width: 60vw;
+ }
+}
+
+
 
 .ProjectsItem-header {  
   text-align: center;
   font-size: 2em;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1%;
+  margin-bottom: 2%;
   color: #3baaee;
   text-overflow: ellipsis;
+  overflow: hidden;
+  height: 10%;
+  min-height: 10%;
 }
 
 .ProjectsItem-line {
@@ -27,7 +43,10 @@ ul li {
 }
 
 .ProjectsItem-list-container {
-  min-height: 60%;
+  height: 70%;
+  min-height: 70%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .ProjectsItem-link {
@@ -41,7 +60,7 @@ ul li {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom:5%;
+  height: 10%;
 }
 
 .ProjectsItem-icon {
