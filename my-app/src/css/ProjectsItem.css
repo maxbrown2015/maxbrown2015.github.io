@@ -4,11 +4,10 @@ ul li {
 
 .ProjectsItem  {  
   width: 30vw;
-  height: 60vh;
+  height: 50vh;
   border: 1px solid #40E0D0;
   background: #f2eded;
   margin: 5em;
-  overflow-x: scroll;
   overflow-y: scroll;
   font-size: 1em;
   display: flex;
@@ -17,7 +16,7 @@ ul li {
   
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   .ProjectsItem {
      width: 60vw;
  }

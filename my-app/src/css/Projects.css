@@ -31,7 +31,7 @@
   justify-content: center;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 800px) {
   .Projects-row {
     flex-direction: column;
   }
