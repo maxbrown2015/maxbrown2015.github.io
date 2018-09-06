@@ -54,7 +54,7 @@ class App extends Component {
     return (
       <div className="App container-fluid">
         <Headroom> <NavbarHeader tellParentToScroll={this.selectScroll}/> </Headroom>
-        <div className="row">
+        <div className="row img-container">
           <div className="First-image Parallax">
           <div className="Profile-image"></div>
           </div>

@@ -4,7 +4,7 @@ ul li {
 
 .ProjectsItem  {  
   width: 30vw;
-  height: 50vh;
+  height: 60vh;
   border: 1px solid #40E0D0;
   background: #f2eded;
   margin: 5em;
@@ -16,9 +16,10 @@ ul li {
   
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .ProjectsItem {
-     width: 60vw;
+    height: 100vw;
+    width: 60vw;
  }
 }
 
@@ -30,7 +31,6 @@ ul li {
   margin-top: 1%;
   margin-bottom: 2%;
   color: #3baaee;
-  text-overflow: ellipsis;
   overflow: hidden;
   height: 10%;
   min-height: 10%;
