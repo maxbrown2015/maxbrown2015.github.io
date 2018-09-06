@@ -19,7 +19,7 @@ ul li {
 @media (max-width: 900px) {
   .ProjectsItem {
     height: 100vw;
-    width: 60vw;
+    width: 80vw;
  }
 }
 
@@ -42,8 +42,8 @@ ul li {
 }
 
 .ProjectsItem-list-container {
-  height: 70%;
-  min-height: 70%;
+  height: 66%;
+  min-height: 66%;
   width: 100%;
   overflow: hidden;
 }
@@ -60,7 +60,7 @@ ul li {
   align-items: center;
   justify-content: center;
   height: 8%;
-  margin-bottom: 3%;
+  margin-bottom: 6%;
 }
 
 .ProjectsItem-icon {
