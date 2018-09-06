@@ -49,8 +49,10 @@ class App extends Component {
   navigateToSection(theRef) {
     window.scrollTo({top: theRef.current.offsetTop, behavior: 'smooth'});
   }
+  
 
   render() {
+    
     return (
       <div className="App container-fluid">
         <Headroom> <NavbarHeader tellParentToScroll={this.selectScroll}/> </Headroom>
