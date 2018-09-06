@@ -1,6 +1,6 @@
 .About {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   background: rgba(199,235,240, .5);
   margin: 0 auto;
   display: flex;
@@ -43,7 +43,8 @@
   letter-spacing: .001em;
   word-spacing: .05em;
   height: 50%;
-  margin: 0;
+  margin: 5% 0 0 0;
+  
 }
 
 .About-contact {

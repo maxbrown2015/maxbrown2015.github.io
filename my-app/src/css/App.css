@@ -50,8 +50,9 @@
 
 
 .About {
-  min-width: 100vw;
-  min-height: 80vh;
+  width: 100vw;
+  height: 100vh;
+  
   background: rgba(199,235,240, .5);
   margin: 0 auto;
   display: flex;
