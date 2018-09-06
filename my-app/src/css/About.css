@@ -12,6 +12,8 @@
 @media (max-width: 900px) {
   .About-content {
     width: 100%;
+    word-spacing: .01em;
+    font-size: .8em;
  }
 
  .About {
@@ -38,6 +40,7 @@
   width: 50%;
   text-align: justify;
   letter-spacing: .001em;
+  word-spacing: .05em;
 }
 
 .About-contact {
