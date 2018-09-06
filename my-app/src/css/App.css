@@ -62,7 +62,6 @@
 .Second-image {
   background-image: url(../img/zion-landscape.jpg);
   margin: 0 auto;
-  position: relative;
   width: auto ;
   max-width: 100% ;
   height: 100%;
@@ -89,7 +88,6 @@
 .Fourth-image {
   background-image: url(../img/love.jpeg);
   margin: 0 auto;
-  position: relative;
   width: auto ;
   max-width: 100% ;
   height: 100%;
