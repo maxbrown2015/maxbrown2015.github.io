@@ -9,7 +9,7 @@ ul li {
   background: #f2eded;
   margin: 5em;
   overflow-y: scroll;
-  font-size: .9em;
+  font-size: .95em;
   display: flex;
   flex-direction: column;
   align-items: center;
