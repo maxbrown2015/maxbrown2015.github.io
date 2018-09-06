@@ -48,6 +48,7 @@
   overflow: hidden;
 }
 
+
 .About {
   min-width: 100vw;
   min-height: 80vh;
@@ -104,3 +105,10 @@
   min-height: 100vh;
 }
 
+@media (max-width: 900px) {
+  img {
+  background-repeat: no-repeat;
+  background-size: contain ;
+  margin: 0;
+  }
+}

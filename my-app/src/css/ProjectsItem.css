@@ -4,7 +4,7 @@ ul li {
 
 .ProjectsItem  {  
   width: 30vw;
-  height: 45vh;
+  height: 50vh;
   border: 1px solid #40E0D0;
   background: #f2eded;
   margin: 5em;
@@ -18,9 +18,9 @@ ul li {
 
 @media (max-width: 900px) {
   .ProjectsItem {
-    height: 100vw;
+    height: 100%;
     width: 80vw;
- }
+  }
 }
 
 
