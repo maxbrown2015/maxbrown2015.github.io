@@ -72,7 +72,7 @@ const whenToDanceInformation = {
 };
 const personalWebsiteInformation = {
   title: "Personal Website",
-  points: ['Summer 2017, Winter 2017, Fall 2018', 'Created a personal website in raw HTML and CSS as my first personal project (Summer 2017)', 'Re-designed website using Bootstrap and added JS interactivity (Winter 2017)', 'Re-designed again using ReactJS and other JS modules (Fall 2018)', 'Technologies used: HTML5, CSS, Bootstrap, JQuery, ReactJS'],
+  points: ['Summer 2017, Winter 2017, Fall 2018', 'Created a personal website in raw HTML and CSS as my first personal project (Summer 2017)', 'Re-designed website using Bootstrap and added JS interactivity (Winter 2017)', 'Re-designed again using ReactJS and other JS modules (Fall 2018)', 'Technologies used: HTML5, CSS, Bootstrap, JQuery, ReactJS', 'Still working on mobile version'],
   link: 'https://maxbrown2015.github.io/',
   git: 'https://github.com/maxbrown2015/maxbrown2015.github.io'
 };
