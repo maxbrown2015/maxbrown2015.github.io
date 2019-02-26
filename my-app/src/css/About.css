@@ -1,0 +1,53 @@
+.About {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(199,235,240, .5);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 900px) {
+  .About-content {
+    width: 100%;
+    word-spacing: .01em;
+    font-size: .8em;
+ }
+
+ .About {
+   width: 100%;
+   height: 100%;
+ }
+}
+
+
+.About-line {
+  width: 66%;
+}
+
+.About-header {
+  text-align: center;
+  height: 5%;
+  margin-bottom: 5%;
+}
+
+
+.About-content {
+  font-size: 1.3em;
+  font-family: 'Open Sans';
+  color: #4d4949;
+  width: 50%;
+  text-align: justify;
+  letter-spacing: .001em;
+  word-spacing: .05em;
+  height: 50%;
+  margin: 5% 0 0 0;
+  
+}
+
+.About-contact {
+  height: 10%;
+  margin-bottom: 5%;
+}

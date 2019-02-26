@@ -1,0 +1,52 @@
+.Work {
+  min-width: 100vw;
+  min-height: 70vh;
+  background: rgba(255,209,209, .8);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Work-header {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.Work-line {
+  width: 75%;
+}
+
+.Work-content {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 100%;
+  margin: 0 20% 0 20%;
+}
+
+.Work-item {
+  margin: 1em 1em auto;
+  font-size: 1.0em;
+}
+
+.Work-item-header {
+  font-size: 1.4em;
+}
+
+.Work-item-details {
+  font-size: 1.2em;
+}
+
+.Work-item-list {
+  font-size: 1.1em;
+}
+
+.toggleFullWorkButton {
+  width: 400px;
+  height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+}
+

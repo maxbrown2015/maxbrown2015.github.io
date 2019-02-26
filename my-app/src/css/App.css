@@ -1,0 +1,116 @@
+.App {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 1em;
+  color: black;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.Parallax {
+  background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;  
+}
+
+.First-image {
+  background-image: url(../img/grafiti_pier.jpeg);
+  margin: 0 auto;
+  position: relative;
+  width: auto ;
+  max-width: 100% ;
+  height: 100%;
+  
+}
+
+.img-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+
+.Profile-image {
+  position: absolute;
+  top: 1vh;
+  left: 1vw;
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-image: url(../img/business-portrait.png);
+  overflow: hidden;
+}
+
+
+.About {
+  width: 100vw;
+  height: 100vh;
+  
+  background: rgba(199,235,240, .5);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.Second-image {
+  background-image: url(../img/zion-landscape.jpg);
+  margin: 0 auto;
+  width: auto ;
+  max-width: 100% ;
+  height: 100%;
+}
+ 
+
+.Work {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: rgba(255,209,209, .8)
+}
+
+.Third-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/zion-max.JPG);
+  background-size: 100% 100%;
+}
+
+.Projects {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.Fourth-image {
+  background-image: url(../img/love.jpeg);
+  margin: 0 auto;
+  width: auto ;
+  max-width: 100% ;
+  height: 100%;
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: 100%;
+}
+
+.Extras {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+@media (max-width: 900px) {
+  img {
+    width: auto ;
+    max-width: 100% ;
+    height: auto;
+  }
+}
