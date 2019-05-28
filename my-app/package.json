@@ -26,5 +26,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
-  "homepage": "http://maxbrown2015.github.io/"
+  "homepage": "http://maxbrown2015.github.io/homepage"
 }
